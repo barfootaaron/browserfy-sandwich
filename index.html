@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sandich Maker</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<h1>Aaron's Sandwich Shop</h1>
+	<h3>Select your sandwich elements below</h3>
+
+		<p>Please select your bread</p>
+		<select multiple id="selectBread" size="5">
+			<option name="bread" value="noBread">I hate bread!</option>
+			<option name="bread" value="wheat">Wheat</option>
+			<option name="bread" value="white">White</option>
+			<option name="bread" value="sourdough">Sourdough</option>
+			<option name="bread" value="pita">Pita</option>
+		</select>
+		<br>	
+		
+		
+		<p>Please select your meat</p>
+		<select multiple id="selectMeat" size="5">
+			<option name="meat" value="noMeat">I am Vegetarian!</option>
+			<option name="meat" value="turkey">Turkey</option>
+			<option name="meat" value="ham">Ham</option>
+			<option name="meat" value="salami">Salami</option>
+			<option name="meat" value="mysterymeat">Mystery Meat</option>
+		</select>
+		<br>
+
+		<p>Please select your cheese</p>
+		<select multiple id="selectCheese" size="5">
+			<option name="cheese" value="noCheese">No cheese for me!</option>
+			<option name="cheese" value="american">American</option>
+			<option name="cheese" value="cheddar">Cheddar</option>
+			<option name="cheese" value="provolone">Provolone</option>
+			<option name="cheese" value="pepperjack">Pepper Jack</option>
+		</select>
+		<br>
+
+		<p>Please select your veggies</p>
+		<select multiple id="selectVeggies" size="5">
+			<option name="veggies" value="noVeggies">No veggies for me!</option>
+			<option name="veggies" value="lettuce">Lettuce</option>
+			<option name="veggies" value="tomato">Tomato</option>
+			<option name="veggies" value="olives">Olives</option>
+			<option name="veggies" value="spinach">Spinach</option>
+		</select>
+		<br>
+
+		<p>Please select your condiments</p>
+		<select multiple id="selectCondiments" size="5">
+			<option name="condiments" value="noCondiments">No condiments for me!</option>
+			<option name="condiments" value="mayo">Mayo</option>
+			<option name="condiments" value="mustard">Mustard</option>
+			<option name="condiments" value="oil">Oil</option>
+			<option name="condiments" value="vinegar">Vinegar</option>
+		</select>
+		<br>
+
+		<button id="submitButton">Finish Sandwich</button>
+
+		<h3>Sandwich</h3>
+	<!-- <textarea rows=15 columns=20></textarea><br><br> -->
+	Price: $ <input type="text" placeholder="0.00" id="output">
+
+
+	<!--<script type="text/javascript" src="javascripts/sandwichmaker.js"></script>
+	<script type="text/javascript" src="javascripts/bread.js"></script>
+	<script type="text/javascript" src="javascripts/meat.js"></script>
+	<script type="text/javascript" src="javascripts/cheese.js"></script>
+	<script type="text/javascript" src="javascripts/veggies.js"></script>
+	<script type="text/javascript" src="javascripts/condiments.js"></script>
+	<script type="text/javascript" src="javascripts/main.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/app.js"></script>
+</body>
+</html>
